@@ -629,7 +629,7 @@ total | number | Order total cost
 email | string  | Customer email address
 paymentMethod | string |  Payment method name
 paymentModule | string | Payment processor name
-tax | number | Tax total
+tax | number | Tax totalCreate order
 ipAddress | string  | Customer IP
 couponDiscount | number | Discount applied with a coupon
 paymentStatus | string |    Payment status. Supported values: <ul><li>`AWAITING_PAYMENT`</li> <li>`PAID`</li> <li>`CANCELLED`</li> <li>`REFUNDED`</li> <li>`INCOMPLETE`</li></ul>
@@ -1244,8 +1244,8 @@ paymentModule | string | Payment processor name
 tax | number | Tax total
 ipAddress | string  | Customer IP
 couponDiscount | number | Discount applied with a coupon
-paymentStatus | string |    Payment status. Supported values: <ul><li>`AWAITING_PAYMENT`</li> <li>`PAID`</li> <li>`CANCELLED`</li> <li>`REFUNDED`</li> <li>`INCOMPLETE`</li></ul>
-fulfillmentStatus | string |    Fulfilment status. Supported values: <ul><li>`AWAITING_PROCESSING`</li> <li>`PROCESSING`</li> <li>`SHIPPED`</li> <li>`DELIVERED`</li> <li>`WILL_NOT_DELIVER`</li> <li>`RETURNED`</li></ul>
+**paymentStatus** | string |    Payment status. Supported values: <ul><li>`AWAITING_PAYMENT`</li> <li>`PAID`</li> <li>`CANCELLED`</li> <li>`REFUNDED`</li> <li>`INCOMPLETE`</li></ul>
+**fulfillmentStatus** | string |    Fulfilment status. Supported values: <ul><li>`AWAITING_PROCESSING`</li> <li>`PROCESSING`</li> <li>`SHIPPED`</li> <li>`DELIVERED`</li> <li>`WILL_NOT_DELIVER`</li> <li>`RETURNED`</li></ul>
 refererUrl | string | URL of the page that the order was placed on
 orderComments | string  | Order comments
 volumeDiscount | number | Subtotal based discount sum
